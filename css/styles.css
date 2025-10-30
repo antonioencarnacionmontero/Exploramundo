@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
-    padding: 10px;
+    padding: 16px;
 }
 
 /* Cabecera */
@@ -92,5 +92,17 @@ footer {
 
     section {
         padding: 10px;
+    }
+}
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
